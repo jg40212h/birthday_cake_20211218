@@ -40,7 +40,7 @@ body {
 .velas:after,
 .velas:before {
   background: rgba(255, 0, 0, 0.4);
-  content: "";
+  content: "25";
   position: absolute;
   width: 100%;
   height: 2.22222222px;
