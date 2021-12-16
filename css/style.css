@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300italic);
+
 html,
 body {
   width: 100%;
@@ -226,9 +226,7 @@ img {
 }
 .text {
   color: #8b6a60;
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-style: italic;
   text-align: center;
 }
 .text h1 {
@@ -237,7 +235,7 @@ img {
 
 .container {
   height: 60px;
-  position: relative;
+  text-align: center;
   border: 0px solid green;
 }
 
@@ -245,8 +243,7 @@ img {
   background-color: #8b6a60;
   border: none;
   color: #ee9ca7;
-  position: absolute;
-  left: 45%;
+  position:relative; 
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
