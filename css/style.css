@@ -3,18 +3,19 @@ html,
 body {
   width: 100%;
   height: 100%;
+  left: 2000%;
 }
 
 body {
   background: #ee9ca7;
-  margin:auto;
 }
 body {
     zoom: 2.3; /* Old IE only */
-    -moz-transform: scale(2.3);
-    -webkit-transform: scale(2.3);
-    transform: scale(2.3);
+    -moz-transform: scale(2.3) translateX(28%);
+    -webkit-transform: scale(2.3) translateX(2%);
+    transform: scale(2.3) translateX(28%);
 }
+
 #cake {
   display: block;
   position: relative;
