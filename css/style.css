@@ -3,31 +3,27 @@ html,
 body {
   width: 100%;
   height: 100%;
-  left: 2000%;
 }
 
 body {
   background: #ee9ca7;
-}
-body {
-    zoom: 2.3; /* Old IE only */
-    -moz-transform: scale(2.3) translateX(28%);
-    -webkit-transform: scale(2.3) translateX(2%);
-    transform: scale(2.3) translateX(28%);
 }
 
 #cake {
   display: block;
   position: relative;
   margin: -10em auto 0 auto;
+  -webkit-transform: translateY(-350px) scale(2.5);
+  -ms-transform: translateY(-350px)  scale(2.5);
+  transform: translateY(-350px) scale(2.5);
 }
 
 img {
-    width : 1000%;
-    height: 100%;
+    width : 2500%;
+    height: 250%;
     position: absolute;
-    top: 435%;
-    left: -450%;
+    top: -330%;
+    left: -1100%;
 }
 
 /* ============================================== Candle
@@ -76,8 +72,8 @@ img {
 .fuego {
   border-radius: 100%;
   position: absolute;
-  top: 390%;
-  left: -230%;
+  top: -400%;
+  left: -490%;
   margin-left: -2.2px;
   width: 6.66666667px;
   height: 18px;
@@ -113,8 +109,8 @@ img {
 .fuego_2 {
   border-radius: 100%;
   position: absolute;
-  top: 390%;
-  left: 250%;
+  top: -400%;
+  left: 700%;
   margin-left: -2.2px;
   width: 6.66666667px;
   height: 18px;
@@ -152,16 +148,16 @@ img {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(1);
-    transform: translateY(0) scale(1);
+    -webkit-transform: translateY(0) scale(2.5);
+    transform: translateY(0) scale(2.5);
   }
 
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-20px) scale(0);
-    transform: translateY(-20px) scale(0);
+    -webkit-transform: translateY(-50px) scale(0);
+    transform: translateY(-50px) scale(0);
   }
 }
 @keyframes fuego {
@@ -169,16 +165,16 @@ img {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(1);
-    transform: translateY(0) scale(1);
+    -webkit-transform: translateY(0) scale(2.5);
+    transform: translateY(0) scale(2.5);
   }
 
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-20px) scale(0);
-    transform: translateY(-20px) scale(0);
+    -webkit-transform: translateY(-50px) scale(0);
+    transform: translateY(-50px) scale(0);
   }
 }
 
@@ -188,16 +184,16 @@ img {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(1);
-    transform: translateY(0) scale(1);
+    -webkit-transform: translateY(0) scale(2.5);
+    transform: translateY(0) scale(2.5);
   }
 
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-20px) scale(0);
-    transform: translateY(-20px) scale(0);
+    -webkit-transform: translateY(-50px) scale(0);
+    transform: translateY(-50px) scale(0);
   }
 }
 @keyframes fuego_2 {
@@ -205,16 +201,16 @@ img {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(1);
-    transform: translateY(0) scale(1);
+    -webkit-transform: translateY(0) scale(2.5);
+    transform: translateY(0) scale(2.5);
   }
 
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-20px) scale(0);
-    transform: translateY(-20px) scale(0);
+    -webkit-transform: translateY(-50px) scale(0);
+    transform: translateY(-50px) scale(0);
   }
 }
 
@@ -246,14 +242,20 @@ img {
   border: 0px solid green;
 }
 
+.container_small {
+  height: 30px;
+  text-align: center;
+  border: 0px solid green;
+}
+
 .button {
   background-color: #8b6a60;
   border: none;
   color: #ee9ca7;
   position:relative; 
-  padding: 5px 10px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 32px;
 }
