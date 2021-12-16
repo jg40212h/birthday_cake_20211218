@@ -8,7 +8,7 @@ body {
 body {
   background: #ee9ca7;
 }
-html {
+body {
     zoom: 2; /* Old IE only */
     -moz-transform: scale(2);
     -webkit-transform: scale(2);
