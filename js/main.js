@@ -142,27 +142,27 @@ else{
 document.getElementById("fireCandles").addEventListener("click", function(){
     var cursor = document.getElementById('fuego0');
           //cursor.style.webkitAnimationPlayState = "paused";
-          cursor.style.left = "-490%"
+          cursor.style.left = "-900%"
           cursor = document.getElementById('fuego1');
           //cursor.style.webkitAnimationPlayState = "paused";
-          cursor.style.left = "-490%"
+          cursor.style.left = "-900%"
           cursor = document.getElementById('fuego2');
           //cursor.style.webkitAnimationPlayState = "paused";
-          cursor.style.left = "-490%"
+          cursor.style.left = "-900%"
           cursor = document.getElementById('fuego3');
           //cursor.style.webkitAnimationPlayState = "paused";
-          cursor.style.left = "-490%"
+          cursor.style.left = "-900%"
           cursor = document.getElementById('fuego4');
           //cursor.style.webkitAnimationPlayState = "paused";
-          cursor.style.left = "-490%"
+          cursor.style.left = "-900%"
           cursor = document.getElementById('fuego_20');
-          cursor.style.left = "700%"
+          cursor.style.left = "950%"
           cursor = document.getElementById('fuego_21');
-          cursor.style.left = "700%"
+          cursor.style.left = "950%"
           cursor = document.getElementById('fuego_22');
-          cursor.style.left = "700%"
+          cursor.style.left = "950%"
           cursor = document.getElementById('fuego_23');
-          cursor.style.left = "700%"
+          cursor.style.left = "950%"
           cursor = document.getElementById('fuego_24');
-          cursor.style.left = "700%"
+          cursor.style.left = "950%"
 });
