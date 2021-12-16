@@ -24,8 +24,8 @@ img {
     width : 1000%;
     height: 100%;
     position: absolute;
-    top: -15%;
-    left: -400%;
+    top: 435%;
+    left: -450%;
 }
 
 /* ============================================== Candle
@@ -74,8 +74,8 @@ img {
 .fuego {
   border-radius: 100%;
   position: absolute;
-  top: -25px;
-  left: -170%;
+  top: 390%;
+  left: -230%;
   margin-left: -2.2px;
   width: 6.66666667px;
   height: 18px;
@@ -111,8 +111,8 @@ img {
 .fuego_2 {
   border-radius: 100%;
   position: absolute;
-  top: -25px;
-  left: 320%;
+  top: 390%;
+  left: 250%;
   margin-left: -2.2px;
   width: 6.66666667px;
   height: 18px;
