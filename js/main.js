@@ -29,7 +29,7 @@ if (navigator.mediaDevices.getUserMedia) {
            console.log(Math.round(average - 40));
 
             
-            if (average > 90){
+            if (average > 80){
               console.log("!!!");
               var cursor = document.getElementById('fuego0');
               //cursor.style.webkitAnimationPlayState = "paused";
