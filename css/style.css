@@ -9,10 +9,10 @@ body {
   background: #ee9ca7;
 }
 body {
-    zoom: 2; /* Old IE only */
-    -moz-transform: scale(2);
-    -webkit-transform: scale(2);
-    transform: scale(2);
+    zoom: 2.3; /* Old IE only */
+    -moz-transform: scale(2.3);
+    -webkit-transform: scale(2.3);
+    transform: scale(2.3);
 }
 #cake {
   display: block;
