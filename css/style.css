@@ -7,6 +7,7 @@ body {
 
 body {
   background: #ee9ca7;
+  margin:auto;
 }
 body {
     zoom: 2.3; /* Old IE only */
@@ -249,7 +250,7 @@ img {
   border: none;
   color: #ee9ca7;
   position:relative; 
-  padding: 15px 32px;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
