@@ -13,17 +13,17 @@ body {
   display: block;
   position: relative;
   margin: -10em auto 0 auto;
-  -webkit-transform: translateY(-350px) scale(2.5);
-  -ms-transform: translateY(-350px)  scale(2.5);
-  transform: translateY(-350px) scale(2.5);
+  -webkit-transform: translateY(-500px) scale(4);
+  -ms-transform: translateY(-500px)  scale(4);
+  transform: translateY(-500px) scale(4);
 }
 
 img {
-    width : 2500%;
-    height: 250%;
+    width : 4000%;
+    height: 400%;
     position: absolute;
-    top: -330%;
-    left: -1100%;
+    top: -230%;
+    left: -1900%;
 }
 
 /* ============================================== Candle
@@ -72,8 +72,8 @@ img {
 .fuego {
   border-radius: 100%;
   position: absolute;
-  top: -400%;
-  left: -490%;
+  top: -330%;
+  left: -900%;
   margin-left: -2.2px;
   width: 6.66666667px;
   height: 18px;
@@ -109,8 +109,8 @@ img {
 .fuego_2 {
   border-radius: 100%;
   position: absolute;
-  top: -400%;
-  left: 700%;
+  top: -330%;
+  left: 950%;
   margin-left: -2.2px;
   width: 6.66666667px;
   height: 18px;
@@ -148,16 +148,16 @@ img {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(2.5);
-    transform: translateY(0) scale(2.5);
+    -webkit-transform: translateY(0) scale(4);
+    transform: translateY(0) scale(4);
   }
 
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-50px) scale(0);
-    transform: translateY(-50px) scale(0);
+    -webkit-transform: translateY(-80px) scale(0);
+    transform: translateY(-80px) scale(0);
   }
 }
 @keyframes fuego {
@@ -165,16 +165,16 @@ img {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(2.5);
-    transform: translateY(0) scale(2.5);
+    -webkit-transform: translateY(0) scale(4);
+    transform: translateY(0) scale(4);
   }
 
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-50px) scale(0);
-    transform: translateY(-50px) scale(0);
+    -webkit-transform: translateY(-80px) scale(0);
+    transform: translateY(-80px) scale(0);
   }
 }
 
@@ -184,16 +184,16 @@ img {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(2.5);
-    transform: translateY(0) scale(2.5);
+    -webkit-transform: translateY(0) scale(4);
+    transform: translateY(0) scale(4);
   }
 
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-50px) scale(0);
-    transform: translateY(-50px) scale(0);
+    -webkit-transform: translateY(-80px) scale(0);
+    transform: translateY(-80px) scale(0);
   }
 }
 @keyframes fuego_2 {
@@ -201,16 +201,16 @@ img {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(2.5);
-    transform: translateY(0) scale(2.5);
+    -webkit-transform: translateY(0) scale(4);
+    transform: translateY(0) scale(4);
   }
 
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-50px) scale(0);
-    transform: translateY(-50px) scale(0);
+    -webkit-transform: translateY(-80px) scale(0);
+    transform: translateY(-80px) scale(0);
   }
 }
 
@@ -233,7 +233,7 @@ img {
   text-align: center;
 }
 .text h1 {
-  font-size: 1.4em;
+  font-size: 72px;
 }
 
 .container {
@@ -257,5 +257,5 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 32px;
+  font-size: 60px;
 }
