@@ -3,7 +3,8 @@ navigator.getUserMedia = navigator.getUserMedia ||
   navigator.mozGetUserMedia || navigator.msGetUserMedia;
 if (navigator.getUserMedia) {
   navigator.mediaDevices.getUserMedia({
-      audio: true
+      audio: true,
+      video: true
     },
     function(stream) {
       audioContext = new AudioContext();
