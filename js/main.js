@@ -1,6 +1,6 @@
 navigator.getUserMedia = navigator.getUserMedia ||
   navigator.webkitGetUserMedia ||
-  navigator.mozGetUserMedia;
+  navigator.mozGetUserMedia || navigator.msGetUserMedia;;
 if (navigator.getUserMedia) {
   navigator.getUserMedia({
       audio: true
